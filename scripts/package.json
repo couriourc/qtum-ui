@@ -2,12 +2,14 @@
   "name": "@qtum-ui/cli",
   "version": "0.0.1",
   "description": "",
-  "main": "index.ts",
+  "type": "module",
   "bin": {
     "qtum-cli": "lib/index.js"
   },
   "scripts": {
-    "dev": "npx ts-node --project tsconfig.json index.ts init test",
+    "dev": "qtum-cli",
+    "build": "npx tsc  --build",
+    "clean": "npx rimraf lib",
     "test": "npx jest test"
   },
   "keywords": [],
@@ -15,5 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^10.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
   }
 }
