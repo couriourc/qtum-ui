@@ -17,3 +17,8 @@ export async function rollupBuild() {
 
     await bundle.write(outputOptions);
 }
+
+import {getBuildCfg} from "./build-cfg";
+
+getBuildCfg();
+

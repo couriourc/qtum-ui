@@ -2,4 +2,4 @@
 
 import {getPackage} from "./gen/gen-docs";
 
-getPackage()
+getPackage();

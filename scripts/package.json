@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "qtum-cli",
-    "build": "npx tsc  --build",
+    "build": "npx tsc  --build ",
     "clean": "npx rimraf lib",
     "test": "npx jest test"
   },
