@@ -1,10 +1,10 @@
 /** @file Button */
 // @ts-ignore
 import '@qtum-ui/style/global.css';
-import Button from './src/button.vue';
+import Table from './src/table.vue';
 
-export default Button;
+export default Table;
 
 export function install(app) {
-    app.component("q-button",Button);
+    app.component("q-table",Table);
 }

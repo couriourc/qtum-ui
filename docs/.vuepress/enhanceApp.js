@@ -1,4 +1,4 @@
-import QButton from '@qtum/button';
+import QButton from '@qtum-ui/button';
 
 export default async ({Vue}) => {
     if (typeof process === 'undefined') {

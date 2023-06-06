@@ -1,14 +1,14 @@
 {
-  "name": "@qtum/button",
-  "private": true,
+  "name": "@qtum-ui/button",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
     "build": "npx tsc"
   },
+  "peerDependencies": {
+    "@qtum-ui/style": "workspace:0.0.1"
+  },
   "dependencies": {
-    "@qtum/shared": "workspace:^0.0.0",
-    "@qtum/style": "workspace:^1.0.0",
-    "vue": "^2.6.0"
+    "@qtum-ui/style": "workspace:0.0.1"
   }
 }

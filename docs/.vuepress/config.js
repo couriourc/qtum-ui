@@ -3,6 +3,7 @@ module.exports = {
     title: 'Qtum',
     description: 'Qtum',
     base: '/',
+    dest: "dist",
     port: '8080', themeConfig: {
         nav: [
             {

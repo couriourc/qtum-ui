@@ -2,20 +2,23 @@
   "name": "docs",
   "version": "1.0.0",
   "description": "",
+  "private": false,
   "scripts": {
     "dev": " vuepress dev .",
     "build": " vuepress build .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@qtum/button": "workspace:^0.0.1",
-    "@qtum/style": "workspace:^1.0.0"
+    "@qtum-ui/button": "workspace:^0.0.1",
+    "@qtum-ui/style": "workspace:^0.0.1"
   },
   "devDependencies": {
-    "sass": "^1.62.1",
-    "sass-loader": "^13.3.1",
+    "less": "^3.0.0",
+    "less-loader": "5.0.0",
+    "vue-template-compiler": "^2.7.14",
     "vuepress": "^1.9.9",
-    "vuepress-plugin-demo-container": "^0.2.0"
+    "vuepress-plugin-demo-container": "^0.2.0",
+    "webpack": "4.0.0"
   },
   "keywords": [],
   "author": "",

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import QButton from '../../src/button.vue';
+import QButton from '../../src/table.vue';
 import {defineComponent} from 'vue-demi';
 
 export default defineComponent({

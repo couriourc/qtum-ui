@@ -1,6 +1,6 @@
 {
-  "name": "@qtum/style",
-  "version": "1.0.0",
+  "name": "@qtum-ui/style",
+  "version": "0.0.1",
   "description": "theme style",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
