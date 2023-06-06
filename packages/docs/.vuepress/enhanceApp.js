@@ -1,7 +1,7 @@
-import ElementUI from '@qtum/button';
+import QButton from '@qtum/button';
 
 export default async ({Vue}) => {
     if (typeof process === 'undefined') {
-        Vue.use(ElementUI);
+        Vue.component("q-button",QButton);
     }
 }

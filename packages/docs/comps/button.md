@@ -10,26 +10,19 @@
 
 ```html
 <template>
- <q-button></q-button>
+ <q-button>Button</q-button>
 </template>
 
 <script>
   export default {
     data() {
       return {
-        options: [{
-          value: ' 选项 1',
-          label: ' 黄金糕 '
-        }, {
-          value: ' 选项 2',
-          label: ' 双皮奶 '
-        }],
-        value: ''
+        
       }
     }
   }
 </script>
-```(注意：需要去掉前面的‘\’！！！)
+```
 :::
 
 
