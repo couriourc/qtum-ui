@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "umd",
     "target": "es5",
-    "sourceMap": true
+    "sourceMap": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "moduleResolution": "NodeNext"
   },
   "exclude": [
     "node_modules"
