@@ -19,6 +19,7 @@
     "commander": "^10.0.1"
   },
   "devDependencies": {
+    "glob": "^10.2.7",
     "ts-node": "^10.9.1"
   }
 }
