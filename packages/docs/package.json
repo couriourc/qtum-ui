@@ -1,0 +1,23 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": " vuepress dev .",
+    "build": " vuepress build .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@qtum/button": "workspace:^0.0.1",
+    "@qtum/style": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1",
+    "sass-loader": "^13.3.1",
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-demo-container": "^0.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
